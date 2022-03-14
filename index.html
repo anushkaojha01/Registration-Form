@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: cursive;
+            font-size: 28px;
+        }
+
+        .container {
+            border: 2px solid rgb(253, 253, 252);
+            border-radius: 14px;
+            margin: 100px 200px;
+            padding: 25px 55px;
+            text-align: center;
+
+
+        }
+
+        .formgroup input {
+            border: 2px solid rgb(211, 153, 153);
+            border-radius: 18px;
+            padding: 10px;
+            margin: 8px auto;
+            width: 400px;
+            font-family: cursive;
+            font-size: 18px;
+            color: black;
+        }
+
+        .btn {
+            margin: 0px 10px;
+            color: gray;
+            background-color: rgb(55, 55, 68);
+            padding: 4px 14px;
+            border: 2px solid black;
+            border-radius: 14px;
+            font-size: 18px;
+            cursor: pointer;
+            width: 50%;
+
+        }
+
+        .btn:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                Name:
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                User Name:
+                <input type="text" name="" placeholder="Enter your Username">
+            </div>
+            <div class="formgroup">
+                Email Id:
+                <input type="email" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="formgroup">
+                Password:
+                <input type="password" name="" placeholder="Enter your Password">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
